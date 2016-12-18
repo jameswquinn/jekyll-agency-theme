@@ -6,22 +6,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="generator" content="Jekyll v3.3.1">
 
-	<!-- <link rel="stylesheet" href="/css/screen.css"> -->
+	<!-- <link rel="stylesheet" href="/jekyll-agency-template//css/screen.css"> -->
 	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
 	<link rel="stylesheet" href="css/responsive-nav.css">
 
 
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="/images/favicon.png">
+	<link rel="apple-touch-icon" href="/jekyll-agency-template//apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/jekyll-agency-template//touch-icon.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/jekyll-agency-template//images/favicon.png">
 
 	<!-- Begin Jekyll SEO tag v2.0.0 -->
 <title>Agency Template - Jekyll template with example content for a web agency.</title>
 <meta property="og:title" content="Agency Template" />
 <meta name="description" content="Jekyll template with example content for a web agency." />
 <meta property="og:description" content="Jekyll template with example content for a web agency." />
-<link rel="canonical" href="https://whaleen.github.io/config-forestryio.yml" />
-<meta property="og:url" content="https://whaleen.github.io/config-forestryio.yml" />
+<link rel="canonical" href="https://whaleen.github.io/jekyll-agency-template//jekyll-agency-template//config-forestryio.yml" />
+<meta property="og:url" content="https://whaleen.github.io/jekyll-agency-template//jekyll-agency-template//config-forestryio.yml" />
 <meta property="og:site_name" content="Agency Template" />
 <script type="application/ld+json">
   {
@@ -29,11 +29,11 @@
     "@type": "WebPage",
     "headline": "Agency Template",
     "description": "Jekyll template with example content for a web agency.",
-    "url": "https://whaleen.github.io/config-forestryio.yml"
+    "url": "https://whaleen.github.io/jekyll-agency-template//jekyll-agency-template//config-forestryio.yml"
   }
 </script>
 <!-- End Jekyll SEO tag -->
-	<link type="application/atom+xml" rel="alternate" href="https://whaleen.github.io/feed.xml" title="Agency Template" />
+	<link type="application/atom+xml" rel="alternate" href="https://whaleen.github.io/jekyll-agency-template//feed.xml" title="Agency Template" />
 
 	
 </head>
@@ -53,25 +53,25 @@
 			
 
 			
-			<li class="mr2"><a href="/portfolio/" class="link dim dark-gray " >Portfolio</a></li>
+			<li class="mr2"><a href="/jekyll-agency-template//portfolio/" class="link dim dark-gray " >Portfolio</a></li>
 		
 			
 			
 
 			
-			<li class="mr2"><a href="/blog/" class="link dim dark-gray " >Blog</a></li>
+			<li class="mr2"><a href="/jekyll-agency-template//blog/" class="link dim dark-gray " >Blog</a></li>
 		
 			
 			
 
 			
-			<li class="mr2"><a href="/about/" class="link dim dark-gray " >About</a></li>
+			<li class="mr2"><a href="/jekyll-agency-template//about/" class="link dim dark-gray " >About</a></li>
 		
 			
 			
 
 			
-			<li class="mr2"><a href="/contact/" class="link dim dark-gray " >Contact</a></li>
+			<li class="mr2"><a href="/jekyll-agency-template//contact/" class="link dim dark-gray " >Contact</a></li>
 		
 	</ul>
 
@@ -88,8 +88,8 @@
 
 ---
 title: Agency Template
-url: https://whaleen.github.io
-baseurl: 
+url: https://whaleen.github.io/jekyll-agency-template/
+baseurl: "/jekyll-agency-template/"
 google_analytics_key: 
 google_maps_javascript_api_key: 
 disqus_shortname: 
@@ -155,8 +155,6 @@ timezone: America/Los_Angeles
 
 <footer class="">
   <div class="container">
-    <p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
-
     <div class="footer-columns">
       
         <ul class="footer-links">
@@ -165,7 +163,7 @@ timezone: America/Los_Angeles
           </li>
           
             <li>
-              <a  href="/" >
+              <a  href="" >
                 
 
                 Home
@@ -173,7 +171,7 @@ timezone: America/Los_Angeles
             </li>
           
             <li>
-              <a  href="/portfolio/" >
+              <a  href="" >
                 
 
                 Portfolio
@@ -181,7 +179,7 @@ timezone: America/Los_Angeles
             </li>
           
             <li>
-              <a  href="/blog/" >
+              <a  href="" >
                 
 
                 Blog
@@ -189,7 +187,7 @@ timezone: America/Los_Angeles
             </li>
           
             <li>
-              <a  href="/about/" >
+              <a  href="" >
                 
 
                 About
@@ -197,7 +195,7 @@ timezone: America/Los_Angeles
             </li>
           
             <li>
-              <a  href="/contact/" >
+              <a  href="" >
                 
 
                 Contact
@@ -271,7 +269,7 @@ timezone: America/Los_Angeles
           <h2>Agency Theme</h2>
         </li>
         <li>Bringing the best experiences to the web for you and your clients.</li>
-        <li><a href="/feed.xml">
+        <li><a href="/jekyll-agency-template//feed.xml">
 		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
 
  Subscribe with RSS</a></li>
