@@ -1,6 +1,6 @@
 title: Agency Template
-url: "https://whaleen.github.io"
-baseurl:
+url: "https://whaleen.github.io/jekyll-agency-template/"
+baseurl: "/jekyll-agency-template/"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
