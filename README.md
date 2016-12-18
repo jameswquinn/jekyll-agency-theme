@@ -1,12 +1,6 @@
-# Urban
+# Agency Template
 
-Web Agency themed business template for Jekyll. Browse through a [live demo](https://teal-worm.cloudvent.net/).
-Increase the web presence of your agency with this configurable theme.
-
-![Urban template screenshot](images/_screenshot.png)
-
-Urban was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
+Web Agency themed business template for Jekyll.
 
 Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
 
@@ -20,7 +14,7 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 * Disqus comments for posts
 * Staff and author system
 * Configurable footer
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Optimised for editing in [Forestry.io](http://forestry.io/)
 * RSS/Atom feed
 * SEO tags
 * Google Analytics
@@ -29,11 +23,11 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 1. Add your site and author details in `_config.yml`.
 2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+3. Get a workflow going to see your site's output (with [Forestry.io](http://forestry.io/) or Jekyll locally).
 
 ## Develop
 
-Urban was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+Agency Template was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
@@ -49,7 +43,7 @@ $ bundle exec jekyll serve
 
 ## Editing
 
-Urban is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+Agency Template is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in [Forestry.io](http://forestry.io/).
 
 ### Posts
 
