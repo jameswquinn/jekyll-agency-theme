@@ -14,7 +14,7 @@
 			{% if link.link == page.url %}
 				{% assign class = class | append: " active" %}
 			{% endif %}
-			<li class="mr2"><a href="{{ site.baseurl }}{{ link.link }}" class="link dim dark-gray {{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a></li>
+			<li class="mr2"><a href="{{ site.url }}{{ link.link }}" class="link dim dark-gray {{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a></li>
 		{% endfor %}
 	</ul>
 
