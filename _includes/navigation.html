@@ -1,0 +1,21 @@
+<nav class="dt w-100 border-box pa3 ph5-ns">
+
+	<a class="dtc v-mid mid-gray link dim w-25" href="#" title="Home">
+		{{ site.title }}
+	</a>
+
+	<ul class="dtc v-mid w-75 tr nav-collapse list fr">
+		{% for link in site.data.navigation.links %}
+			{% assign class = "" %}
+			{% if link.highlight %}
+				{% assign class = class | append: " red" %}
+			{% endif %}
+
+			{% if link.link == page.url %}
+				{% assign class = class | append: " active" %}
+			{% endif %}
+			<li class="mr2"><a href="{{ site.baseurl }}{{ link.link }}" class="link dim dark-gray {{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a></li>
+		{% endfor %}
+	</ul>
+
+</nav>
