@@ -1,10 +1,10 @@
-<nav class="dt w-100 border-box pa3 ph5-ns ba">
+<nav class="dt w-100 border-box pa3 ph5-ns">
 
-	<a class="dtc v-mid mid-gray link dim w-25 ba" href="#" title="Home">
+	<a class="dtc v-mid mid-gray link dim w-25" href="#" title="Home">
 		{{ site.title }}
 	</a>
 
-	<ul class="dtc v-mid w-75 tr nav-collapse ba list fr">
+	<ul class="dtc v-mid w-75 tr nav-collapse list fr">
 		{% for link in site.data.navigation.links %}
 			{% assign class = "" %}
 			{% if link.highlight %}

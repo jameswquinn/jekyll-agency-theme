@@ -3,13 +3,13 @@ layout: default
 ---
 {% assign blog = site.pages | where: "path", "blog/index.html" | first %}
 
-<section class="hero diagonal">
-	<div class="container">
+<section class="bg-gray">
+	<div class="">
 		{% if blog.heading %}
-		<h2><a href="{{ site.baseurl }}/blog/">{{ blog.heading }}</a> / {{ page.title | capitalize }}</h2>
+		<h2><a href="{{ site.baseurl }}/blog/" class="">{{ blog.heading }}</a> / {{ page.title | capitalize }}</h2>
 		{% endif %}
 		{% if blog.subtitle %}
-			<p class="subtext">{{ blog.subtitle }}</p>
+			<p class="">{{ blog.subtitle }}</p>
 		{% endif %}
 	</div>
 </section>

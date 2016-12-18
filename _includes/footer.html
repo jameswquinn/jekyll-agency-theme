@@ -1,40 +1,51 @@
-<footer class="">
-  <div class="container">
-    <div class="footer-columns">
-      {% for column in site.data.footer %}
-        <ul class="footer-links">
-          <li>
-            <h2>{{ column.title }}</h2>
-          </li>
-          {% for link in column.links %}
+<footer class="bg-gray">
+<div class="bg-gray mw9 center ph3-ns">
+  <div class="cf ph2-ns">
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4">
+        {% for column in site.data.footer %}
+          <ul class="list">
             <li>
-              <a {% if link.new_window %}target="_blank"{% endif %} href="" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
-                {% if link.social_icon %}
-                  {% include social-icon.html icon=link.social_icon %}
-                {% endif %}
-
-                {{ link.name }}
-              </a>
+              <h2>{{ column.title }}</h2>
             </li>
-          {% endfor %}
-        </ul>
-      {% endfor %}
+            {% for link in column.links %}
+              <li>
+                <a {% if link.new_window %}target="_blank"{% endif %} href="" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
+                  {% if link.social_icon %}
+                    {% include social-icon.html icon=link.social_icon %}
+                  {% endif %}
 
-      <ul class="footer-links">
-        <li>
-          <h2>{{ site.data.company.title }}</h2>
-        </li>
-        <li>{{ site.data.company.description }}</li>
-        <li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
-      </ul>
+                  {{ link.name }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4">
+        <ul class="list">
+          <li>
+            <h2>{{ site.data.company.title }}</h2>
+          </li>
+          <li>{{ site.data.company.description }}</li>
+          <li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
+        </ul>
+      </div>
     </div>
   </div>
+</div>
+</footer>
 
-  <div class="legal-line">
-    <p class="container">
+
+  <div class="">
+    <p class="">
       &copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}
       &bull;
       Template by <a href="http://whaleen.github.io">Code Furniture</a>
     </p>
   </div>
-</footer>
