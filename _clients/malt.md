@@ -1,10 +1,10 @@
 ---
-title: 
+title:
 date: '2016-12-18 18:24:49'
 name: Malt Template
 subtitle: Event marketing template for Jekyll
 external_url: https://github.com/CloudCannon/malt-jekyll-template
-image_path: "/images/clients/malt.jpg"
+image_path: "malt.jpg"
 ---
 ![]({{%20site.baseurl%20}}/forestryio/images/malt.jpg)
 

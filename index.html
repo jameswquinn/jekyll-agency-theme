@@ -21,7 +21,7 @@ title: Agency Template
 {% for client in site.clients limit: 4 %}
   <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
     <div class="aspect-ratio aspect-ratio--16x9">
-			<img src="{{ site.url }}{{ client.image_path }}" class="db bg-center cover aspect-ratio--object" >
+			<img src="{{ site.url }}/forestryio/images/{{ client.image_path }}" class="db bg-center cover aspect-ratio--object" >
     </div>
     <a href="{{ site.baseurl }}{{ client.url }}" class="ph2 ph0-ns pb3 link db">
       <h3 class="f5 f4-ns mb0 black-90">{{ client.name }}</h3>
