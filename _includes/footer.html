@@ -1,7 +1,5 @@
 <footer class="">
   <div class="container">
-    <p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
-
     <div class="footer-columns">
       {% for column in site.data.footer %}
         <ul class="footer-links">
@@ -10,7 +8,7 @@
           </li>
           {% for link in column.links %}
             <li>
-              <a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
+              <a {% if link.new_window %}target="_blank"{% endif %} href="" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
                 {% if link.social_icon %}
                   {% include social-icon.html icon=link.social_icon %}
                 {% endif %}
